@@ -1,0 +1,30 @@
+\documentclass[]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{parskip}
+\usepackage{cite}
+\usepackage[numbers,sort&compress]{natbib}
+\title{What is cloud computing?}
+\author{George Lancaster - qv18258}
+\begin{document}
+\begin{centering}
+\section*{\underline{  Cloud Computing - FA1  }}
+\end{centering}
+
+Cloud computing is an umbrella term for on-demand computing services provided over the internet. To be considered a cloud service, computing resources must be elastically allocated and de-allocated to scale with demand. Resource allocation is metered, and provided to the user at a charge \cite{mell2011nist}. Consequently, cloud based applications can be developed on any scale with little to no investment in hardware. Cloud computing is also known as `utility computing', referencing how the business model is similar to utilities like gas, electricity and water. 
+\par
+The three most common types of cloud computing services are: Software as a Service (SaaS), Platform as a service (PaaS) and Infrastructure as a Service (Iaas) \cite{cliff2010remotely}. SaaS is a software distribution model whereby a user accesses a software package exclusively through a thin client, in most cases a web-browser. The back-end of the program is stored remotely on a server. PaaS provides a platform for the development and deployment of web-based applications. The hardware and software are provided as a stack and allow developers to write their own code to produce a SaaS application. IaaS provides cloud services at the lowest level of abstraction; a user must install all the necessary software to use the cloud service. This gives greater flexibility than PaaS, as the user can configure their own development environment and software tools. 
+\par
+In addition to this, cloud services can be categorised as public, private or hybrid. A public cloud service is operated by a third-party company. All computing resources are shared by all users of the cloud. A private cloud restricts its usage to a single company. They can be operated internally, or by a third party provider. They are more commonly used by organisations like government agencies, who require greater control and security over the data they store. A hybrid cloud uses both private and public solutions. It does this by maintaining its own private cloud, but using a public service when required. An example of this being `cloud-bursting', which enables a service to run in the private cloud until there is an increase in usage, requiring the use of public resources. 
+\par
+Two of the most successful companies providing cloud computing services are Amazon and Google. Both companies rely on their own massive data centres to ensure that there is no delay in service, even at peak usage. To maximise the use of their servers, and their profit, unused servers are rented out to consumers, ensuring that more servers are creating a profit at any time \cite{carr2008big}. 
+
+\newpage
+\bibliography{citations}
+\bibliographystyle{plain}
+
+
+
+
+
+
+\end{document}

@@ -1,0 +1,79 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Feedback Assessment Two\\
+{\footnotesize \textsuperscript{*}Cloud Computing Project Proposal}
+}
+
+\author{\IEEEauthorblockN{George Lancaster}
+\IEEEauthorblockA{\textit{dept. of Computer Science} \\
+\textit{University of Bristol}\\
+Bristol, United Kingdom \\
+qv18258@bristol.ac.uk\\}}
+
+\maketitle
+
+\begin{abstract}
+This document describes concepts and motivation behind xxxxx, a cloud-based live-streaming and video chat service.
+\end{abstract}
+\begin{IEEEkeywords}
+cloud, web-application, streaming, video chat, live.
+\end{IEEEkeywords}
+
+\section{Introduction}
+xxxxx is a concept for a cloud-based application, which could be developed on the Amazon Web Services (AWS) platform. \par
+
+
+
+Write a one-page "Extended Abstract" describing what you propose to do, and expect to achieve or demonstrate, in your cloud-computing programming project.
+\\What makes it a good cloud project? 
+\section{Concept}
+The application will connect two clients, so that they can stream audio and video to each other from their computer using a microphone and webcam. It will use Amazon Web Services as a centralised control server, which provides a chatroom and platform to connect clients. 
+\par
+To differentiate it from its competitors, users can be invited to join a chat session by providing an email address. In doing so, an email is sent to the other user, requesting that they join the chat session. AWS has Simple Email Service, which means that setting up an email server is not necessary.
+\par
+ users will be able to create an account or communicate anonymously. 
+\par
+
+
+
+
+What is the concept? 
+\begin{enumerate} 
+	\item Two clients can stream audio and video to each other, using Amazon Web Services as a centralised control server.
+	\item Users can be anonymous, or create an account to maintain a contacts list. 
+	\item \end{enumerate} 
+
+
+\section{Motivation}
+
+\begin{enumerate}
+	\item Video streaming is high-bandwidth, and therefore requires good server-side hardware. 
+	\item Using a cloud service for development ensures that there are no bandwidth limitations.
+	\item Using cloud ensures that there is a centralisation of control, rather than peer-to-peer connection, as was done in Skype. 
+	\item Streaming requires the constant attention of one worker per connection to a stream. They are only released when the stream ends. This means that there can only be as many streams running at one time as there are workers. By using a cloud service, we are essentially using an unlimited number of workers, and can therefore concurrently serve an `unlimited' number of clients at once. 
+	\item
+\end{enumerate}
+
+
+What do I plan to demonstrate?
+\begin{enumerate}
+	\item I plan to demonstrate how a high-bandwidth, computationally expensive operation like video streaming can be performed seamlessly using a cloud provider. 
+	
+\end{enumerate} 
+
+
+
+
+
+\end{document}

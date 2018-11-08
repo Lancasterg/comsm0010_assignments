@@ -1,0 +1,37 @@
+\begin{thebibliography}{}
+
+\bibitem[Win, ]{WinNT}
+What are public, private and hybrid clouds?
+\newblock
+  https://azure.microsoft.com/en-gb/overview/what-are-private-public-hybrid-clouds/\\Accessed:
+  2018-10-10.
+
+\bibitem[Carr, 2008]{carr2008big}
+Carr, N.~G. (2008).
+\newblock {\em The big switch: Rewiring the world, from Edison to Google}.
+\newblock WW Norton \& Company.
+
+\bibitem[Cliff, 2010]{cliff2010remotely}
+Cliff, D. (2010).
+\newblock Remotely hosted services and'cloud computing'.
+
+\bibitem[Guo et~al., 2014]{guo2014cost}
+Guo, T., Sharma, U., Shenoy, P., Wood, T., and Sahu, S. (2014).
+\newblock Cost-aware cloud bursting for enterprise applications.
+\newblock {\em ACM Transactions on Internet Technology (TOIT)}, 13(3):10.
+
+\bibitem[Mell et~al., 2011]{mell2011nist}
+Mell, P., Grance, T., et~al. (2011).
+\newblock The nist definition of cloud computing.
+
+\bibitem[Ren et~al., 2012]{ren2012security}
+Ren, K., Wang, C., and Wang, Q. (2012).
+\newblock Security challenges for the public cloud.
+\newblock {\em IEEE Internet Computing}, 16(1):69--73.
+
+\bibitem[Turner et~al., 2003]{turner2003turning}
+Turner, M., Budgen, D., and Brereton, P. (2003).
+\newblock Turning software into a service.
+\newblock {\em Computer.}, 36(10):38--44.
+
+\end{thebibliography}
