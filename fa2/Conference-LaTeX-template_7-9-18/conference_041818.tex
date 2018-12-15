@@ -13,7 +13,7 @@
 
 \title{Feedback Assessment Two\\}
 
-\author{\IEEEauthorblockN{George Lancaster}
+\author{\IEEEauthorblockN{George Lancaster - qv18258}
 \IEEEauthorblockA{\textit{dept. of Computer Science} \\
 \textit{University of Bristol}\\
 Bristol, United Kingdom \\
@@ -22,13 +22,13 @@ qv18258@bristol.ac.uk\\}}
 \maketitle
 
 \begin{abstract}
-This document describes the concepts and motivation behind Cloud Chat, a cloud-based live-streaming and video chat service.
+This document describes the concepts and motivation behind Cloud Chat, a cloud-based live video chat service.
 \end{abstract}
 \begin{IEEEkeywords}
 cloud, web-application, streaming, video chat, live.
 \end{IEEEkeywords}
 \section{Overview}
-Cloud Chat will connect two clients, opening an audio and video stream between them. Data will be streamed to an AWS server, then back to the other chat participant. Users are not required to create an account to use the service, and will be invited to join a chat by email invitation only. AWS provides Simple Email Service, which can be used to automate the sending of invitations.
+Cloud Chat will connect two clients, opening an audio and video stream between them. Data will be streamed from one client to an AWS server, then back to the other chat participant. Users are not required to create an account to use the service, and will be invited to join a chat by email invitation only. AWS provides Simple Email Service, which can be used to automate the sending of invitations.
 \par
 Depending on time constraints, users may be able to create accounts and store a list of contact email addresses using S3 storage and Cognito. Although this is not the main focus of the project, it is a suitable extension, which allows users to create, read, update and delete data. 
 \section{Motivation}
@@ -52,7 +52,7 @@ Cloud Chat plans to build upon an existing open-source repository found on GitHu
 \end{figure}
 \vspace{-0.5cm}
 \section{Competitor Analysis}
-Skype is conceptually similar to Cloud Chat, however it uses a network of nodes to connect clients in a peer-to-peer network \cite{baset2004analysis}. Cloud Chat will differ from Skype, in that data will first be streamed to the cloud server, before being sent to the recipient. Using the cloud ensures that there is a centralisation of control, rather than peers connecting to one another. 
+Skype is conceptually similar to Cloud Chat, however it uses a network of nodes to connect clients in a peer-to-peer network \cite{baset2004analysis}. Cloud Chat will differ from Skype, in that data will first be streamed to the cloud server, before being sent to the recipient. Using the cloud ensures that there is a centralisation of control, rather than clients directly connecting to one another. 
 \section{Conclusion}
 The main goal of this project is to demonstrate how cloud services can be used to send and receive large amounts of live data between clients.
 
